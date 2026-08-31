@@ -5,7 +5,7 @@ public:
     stack<int> minSt;    // Stores minimum values
 
     MinStack() {
-        // Constructor
+        // Constructor  used
     }
 
     void push(int x) {
