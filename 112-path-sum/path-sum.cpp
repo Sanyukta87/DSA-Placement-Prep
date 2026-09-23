@@ -16,7 +16,7 @@ public:
         if(root == NULL)
             return false;
 
-        targetSum -= root->val;
+        targetSum -= root->val;               //value of target
 
         if(root->left == NULL && root->right == NULL)
             return targetSum == 0;
