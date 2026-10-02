@@ -2,7 +2,7 @@ class MinStack {
 public:
 
     stack<int> st;       // Stores all values
-    stack<int> minSt;    // Stores minimum values
+    stack<int> minSt;    // Stores minimum values in stack
 
     MinStack() {
         // Constructor  used
